@@ -1,0 +1,26 @@
+.personal {
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 500;
+	&__title { 
+        font-size: xx-large;
+        margin-bottom: 20px;
+    }
+	&__text { 
+        margin-bottom: 30px;
+        line-height: 30px;
+        font-size: 18px;
+    }
+	&__box-img { 
+        text-align: center;
+    }
+	&__img { 
+        object-fit:cover;
+        height: 300px;
+        max-height: 100%;
+        width: 300px;
+        max-width: 100%;
+        border-radius: 50%;
+        padding: 20px;
+    }
+}

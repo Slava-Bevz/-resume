@@ -1,0 +1,78 @@
+.contact {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 100px;
+	&__title { 
+        margin-bottom: 50px;
+        font-weight: bold;
+    }
+	&__name { 
+        padding: 20px;
+        font-style: 20px;
+        max-width: 100%;
+        font-size: 18px;
+        margin-bottom: 30px;
+        outline: none;
+        border: 3px solid $acva;
+        &:hover {
+            border: 3px solid $blue;
+            transition: 1s;
+        }
+        &:focus {
+            border: 3px solid $blue;
+            transition: 1s;
+        }
+    }
+	&__email { 
+        padding: 20px;
+        font-style: 20px;
+        font-size: 18px;
+        margin-bottom: 30px;
+        max-width: 100%;
+        outline: none;
+        border: 3px solid $acva;
+        &:hover {
+            border: 3px solid $blue;
+            transition: 1s;
+        }
+        &:focus {
+            border: 3px solid $blue;
+            transition: 1s;
+        }
+    }
+	&__text { 
+        padding: 20px;
+        font-style: 20px;
+        font-size: 18px;
+        max-width: 100%;
+        margin-bottom: 30px;
+        height: 150px;
+        resize: none;
+        outline: none;
+        border: 3px solid $acva;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        &:hover {
+            border: 3px solid $blue;
+            transition: 1s;
+        }
+        &:focus {
+            border: 3px solid $blue;
+            transition: 1s;
+        }
+    }
+	&__btn { 
+        background-color: $acva;
+        border: 3px solid transparent;
+        color: $blue;
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: auto;
+        padding: 20px 100px;
+        cursor: pointer;
+        &:hover {
+            border: 3px solid $blue;
+            transition: 1s;
+        }
+    }
+}

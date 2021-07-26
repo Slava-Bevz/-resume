@@ -1,0 +1,74 @@
+.header {
+    background: url(../img/priroda.jpg) no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+	&__mein { 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    &__wrapper {
+        padding: 20px;
+    }
+	&__logo-name { 
+        color: $white;
+        letter-spacing: 0.1em;
+        font-size: 25px;
+        font-weight: bold;
+        width: 100%;
+        max-width: 50px;
+    }
+	&__list { 
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+	&__li { 
+        padding: 0 0 0 5px;
+    }
+    &__link {
+        color: $white;
+        text-decoration: none;
+        padding-left: 15px;
+        font-weight: bold;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+	&__img { 
+        width: 100%;
+        max-width: 980px;
+        margin-bottom: 50px;
+    }
+    &__box-img {
+        position: relative;
+    }
+    &__text {
+        position: absolute;
+        bottom: 40px;
+        left: auto;
+        height: 150px;
+        width: 100%;
+        max-width: 980px;
+        background: linear-gradient(to bottom, transparent, #000000);
+        color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 500;
+    }
+	&__img-info { 
+        text-align: center;
+        color: $white;
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 821px) {
+    .header {
+        &__list {
+            display: none;
+        }
+    }
+}

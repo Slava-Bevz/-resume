@@ -1,0 +1,428 @@
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/montserrat-v15-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* montserrat-500 - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/montserrat-v15-latin_cyrillic-500.woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* montserrat-600 - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/montserrat-v15-latin_cyrillic-600.woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* montserrat-700 - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/montserrat-v15-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0; }
+
+body {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-style: normal; }
+
+.wrapper {
+  max-width: 980px;
+  min-width: 375px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+.header {
+  background: url(../img/priroda.jpg) no-repeat;
+  background-size: cover;
+  margin-bottom: 50px; }
+  .header__mein {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px; }
+  .header__wrapper {
+    padding: 20px; }
+  .header__logo-name {
+    color: white;
+    letter-spacing: 0.1em;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 50px; }
+  .header__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    list-style: none; }
+  .header__li {
+    padding: 0 0 0 5px; }
+  .header__link {
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+    font-weight: bold; }
+    .header__link:hover {
+      text-decoration: underline; }
+  .header__img {
+    width: 100%;
+    max-width: 980px;
+    margin-bottom: 50px; }
+  .header__box-img {
+    position: relative; }
+  .header__text {
+    position: absolute;
+    bottom: 40px;
+    left: auto;
+    height: 150px;
+    width: 100%;
+    max-width: 980px;
+    background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#000000));
+    background: linear-gradient(to bottom, transparent, #000000);
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 18px;
+    font-weight: 500; }
+  .header__img-info {
+    text-align: center;
+    color: white;
+    margin-bottom: 25px; }
+
+@media (max-width: 821px) {
+  .header__list {
+    display: none; } }
+
+.experience {
+  margin-bottom: 50px;
+  font-size: 18px;
+  font-weight: 500; }
+  .experience__work {
+    margin-bottom: 30px; }
+  .experience__date {
+    margin-bottom: 10px; }
+
+.achievement {
+  margin-bottom: 50px;
+  font-size: 18px; }
+  .achievement__title {
+    font-size: xx-large;
+    margin-bottom: 15px; }
+  .achievement__info {
+    margin-bottom: 20px;
+    font-size: 25px; }
+  .achievement__list {
+    padding: 0; }
+  .achievement__li {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style: none;
+    padding: 30px 0 30px 60px; }
+    .achievement__li::before {
+      content: "";
+      position: absolute;
+      left: -10px;
+      width: 61px;
+      height: 61px;
+      background-image: url(../img/marker1.png); }
+  .achievement__text {
+    line-height: 1.6; }
+
+.strengths {
+  margin-bottom: 50px;
+  font-size: 18px;
+  font-weight: 600; }
+  .strengths__title {
+    margin-bottom: 20px; }
+  .strengths__list {
+    padding: 0;
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2; }
+  .strengths__li {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style: none;
+    padding: 30px 0 30px 60px; }
+    .strengths__li::before {
+      content: "";
+      position: absolute;
+      left: -10px;
+      width: 61px;
+      height: 61px;
+      background-image: url(../img/marker2.png); }
+
+@media (max-width: 716px) {
+  .strengths__list {
+    -webkit-column-count: 1;
+       -moz-column-count: 1;
+            column-count: 1; } }
+
+.quote {
+  background: url(../img/165253-nacionalnyj_park_banf-oblako-voda-gidroresursy-rastenie-3840x2160.jpg) no-repeat center;
+  padding: 50px;
+  margin-bottom: 50px;
+  background-size: 100%; }
+  .quote__box {
+    color: white;
+    font-size: 18px;
+    font-weight: 600; }
+  .quote__title {
+    margin-bottom: 10px; }
+  .quote__text {
+    padding-bottom: 30px;
+    font-style: italic; }
+
+@media (max-width: 716px) {
+  .quote {
+    padding: 10px; }
+    .quote__title {
+      text-shadow: 5px 5px 5px black, 0 0 3em black; }
+    .quote__text {
+      text-shadow: 5px 5px 5px black, 0 0 3em black; } }
+
+.personal {
+  margin-bottom: 50px;
+  font-size: 18px;
+  font-weight: 500; }
+  .personal__title {
+    font-size: xx-large;
+    margin-bottom: 20px; }
+  .personal__text {
+    margin-bottom: 30px;
+    line-height: 30px;
+    font-size: 18px; }
+  .personal__box-img {
+    text-align: center; }
+  .personal__img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 300px;
+    max-height: 100%;
+    width: 300px;
+    max-width: 100%;
+    border-radius: 50%;
+    padding: 20px; }
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  margin-bottom: 100px; }
+  .contact__title {
+    margin-bottom: 50px;
+    font-weight: bold; }
+  .contact__name {
+    padding: 20px;
+    font-style: 20px;
+    max-width: 100%;
+    font-size: 18px;
+    margin-bottom: 30px;
+    outline: none;
+    border: 3px solid #83CBBB; }
+    .contact__name:hover {
+      border: 3px solid #5F12E8;
+      -webkit-transition: 1s;
+      transition: 1s; }
+    .contact__name:focus {
+      border: 3px solid #5F12E8;
+      -webkit-transition: 1s;
+      transition: 1s; }
+  .contact__email {
+    padding: 20px;
+    font-style: 20px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 100%;
+    outline: none;
+    border: 3px solid #83CBBB; }
+    .contact__email:hover {
+      border: 3px solid #5F12E8;
+      -webkit-transition: 1s;
+      transition: 1s; }
+    .contact__email:focus {
+      border: 3px solid #5F12E8;
+      -webkit-transition: 1s;
+      transition: 1s; }
+  .contact__text {
+    padding: 20px;
+    font-style: 20px;
+    font-size: 18px;
+    max-width: 100%;
+    margin-bottom: 30px;
+    height: 150px;
+    resize: none;
+    outline: none;
+    border: 3px solid #83CBBB;
+    font-family: 'Montserrat';
+    font-weight: 500; }
+    .contact__text:hover {
+      border: 3px solid #5F12E8;
+      -webkit-transition: 1s;
+      transition: 1s; }
+    .contact__text:focus {
+      border: 3px solid #5F12E8;
+      -webkit-transition: 1s;
+      transition: 1s; }
+  .contact__btn {
+    background-color: #83CBBB;
+    border: 3px solid transparent;
+    color: #5F12E8;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: auto;
+    padding: 20px 100px;
+    cursor: pointer; }
+    .contact__btn:hover {
+      border: 3px solid #5F12E8;
+      -webkit-transition: 1s;
+      transition: 1s; }
+
+.scrollup {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  border: 3px solid transparent;
+  background-color: #83CBBB; }
+  .scrollup:hover {
+    border: 3px solid #5F12E8;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    outline: none; }
+  .scrollup:hover::before {
+    width: 4px;
+    height: 25px; }
+  .scrollup:hover::after {
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    top: 43%;
+    left: 50%; }
+  .scrollup:focus {
+    -webkit-filter: brightness(1.5);
+            filter: brightness(1.5);
+    outline: none; }
+  .scrollup::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    border-radius: 5px;
+    background-color: #5F12E8;
+    -webkit-transition: 0.2s;
+    transition: 0.2s; }
+  .scrollup::after {
+    content: '';
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+            transform: translate(-50%, -50%) rotate(-45deg);
+    width: 20px;
+    height: 20px;
+    border-top: 5px solid #5F12E8;
+    border-right: 5px solid #5F12E8;
+    border-radius: 3px; }
+
+.burger-menu {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  cursor: pointer;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #000), color-stop(11%, transparent), color-stop(44%, transparent), color-stop(45%, #000), color-stop(55%, #000), color-stop(56%, transparent), color-stop(89%, transparent), color-stop(90%, #000));
+  background: linear-gradient(to bottom, #000 10%, transparent 11%, transparent 44%, #000 45%, #000 55%, transparent 56%, transparent 89%, #000 90%); }
+  .burger-menu__list {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    z-index: 1;
+    white-space: nowrap;
+    background-color: #83CBBB;
+    list-style: none;
+    padding: 20px 40px;
+    border-radius: 10px; }
+  .burger-menu__li {
+    padding: 0;
+    margin-bottom: 10px; }
+  .burger-menu__link {
+    text-decoration: none;
+    color: #5F12E8;
+    font-weight: bold; }
+    .burger-menu__link:hover {
+      text-decoration: underline;
+      color: #5F12E8; }
+
+.burger-active {
+  background: linear-gradient(45deg, transparent 45%, #000 46%, #000 55%, transparent 56%), linear-gradient(-45deg, transparent 45%, #000 46%, #000 55%, transparent 56%); }
+
+.burger-list-active {
+  display: block; }
+
+@media (max-width: 821px) {
+  .burger-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+.quote {
+    background: url(../img/165253-nacionalnyj_park_banf-oblako-voda-gidroresursy-rastenie-3840x2160.jpg) no-repeat center; 
+    padding: 50px;
+    margin-bottom: 50px;
+    background-size: 100%;
+	&__box { 
+        color: $white;
+        font-size: 18px;
+        font-weight: 600;
+    }
+	&__title { 
+        margin-bottom: 10px;
+    }
+	&__text { 
+        padding-bottom: 30px;
+        font-style: italic;
+    }
+}
+@media (max-width: 716px) {
+    .quote {
+        padding: 10px;
+        &__title { 
+            text-shadow: 5px 5px 5px black, 0 0 3em black;
+        }
+        &__text { 
+            text-shadow: 5px 5px 5px black, 0 0 3em black;
+        }
+    }
+}
